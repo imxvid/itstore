@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Script Tutorials" />
+        <title>How to create Pinterest-like script - step 6 | Script Tutorials</title>
+
+        <!-- add styles -->
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link href="css/colorbox.css" rel="stylesheet" type="text/css" />
+
+        <!-- add scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.colorbox-min.js"></script>
+        <script src="js/jquery.masonry.min.js"></script>
+        <script src="js/jquery.infinitescroll.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+
+        <!-- header panel -->
+        <div class="header_panel">
+
+            <!-- logo -->
+            <a href="index.php" class="logo"></a>
+
+            <!-- search form -->
+            <form action="" method="get" class="search">
+                <input autocomplete="off" name="q" size="27" placeholder="Search" type="text" />
+                <input name="search" type="submit" />
+            </form>
+
+            <!-- navigation menu -->
+            <ul class="nav">
+                <li>
+                    <a href="#">About<span></span></a>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Pin It Button</a></li>
+                        <li><a href="#" target="_blank">For Businesses</a></li>
+                        <li class="div"><a href="#">Careers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="div"><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Trademark</a></li>
+                    </ul>
+                </li>
+                {menu_elements}
+                <li>
+                    <a href="http://www.script-tutorials.com/pinterest-like-script-step-6/">Back to tutorial</a>
+                </li>
+            </ul>
+
+        </div>
+
+        {extra_data}
+
+        <h2 class="pname">Profile {profile_name}</h2>
+
+        <!-- main container -->
+        <div class="main_container">
+            {images_set}
+        </div>
+        {infinite}
+    </body>
+</html>
