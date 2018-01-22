@@ -1,2 +1,0 @@
-# itstore
-IT Store
